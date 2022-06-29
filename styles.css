@@ -221,7 +221,7 @@ footer p{
         height: 300px;    
         grid-template-rows: none;
         display: grid;
-        grid-template-columns: 20% 65% 15%;
+        grid-template-columns: 15% 70% 15%;
         }
         header img{
             width: 90px;

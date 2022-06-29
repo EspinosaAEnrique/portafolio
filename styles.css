@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --negro-alto:#000000;
+    --negro-medio:#303030;
+    --negro-bajo:#606060;
+    --blanco:#FFFFFF;
+}
+html{
+    font-size: 62.5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    width: 100%;
+    min-width: 320px;
+    display: grid;
+    grid-template-rows: 200px 100px 100px;
+    justify-items: center;
+    align-items: center;
+    background-image: url("asset/img/header.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 1px solid var(--blanco);
+}
+header img{
+    width: 90px;
+    height: 90px;
+    border-radius: 15px;
+    border: 1px solid var(--blanco);
+}
+header div h1{
+    font-size: 2.8rem;
+    font-weight: bold;
+    line-height: 2.8rem;
+    text-align: center;
+    color: var(--blanco);
+}
+header div p{
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    text-align: center;
+    color: var(--blanco);
+    margin-top: 20px;
+}
+
+header nav .email{
+    padding: 20px;
+    margin-right: 30px;
+    background-image: url("asset/icons/mail.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header nav .instagram{
+    padding: 20px;
+    margin-right: 30px;
+    background-image: url("asset/icons/instagram.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header nav .linkedin{
+    padding: 20px;
+    margin-right: 30px;
+    background-image: url("asset/icons/linkedin.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header nav a:hover{
+   opacity: .5;
+}
+main{
+    width: 100%;
+    min-width: 320px;
+    display: grid;
+    grid-template-rows: 150px 150px 150px 350px;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--negro-alto);
+}
+main .main-datos-container{
+    width: 95%;
+    height: 95%;
+    background-color: rgba(28, 27, 26, .5);
+    border-radius: 15px;
+    text-align: center;
+}
+main .main-datos-container h2{
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    color: var(--blanco);
+    margin-top: 20px;
+}
+main .main-datos-container p{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: var(--blanco);
+    margin-top: 20px;
+}
+main .main-cv-container{
+    width: 95%;
+    height: 95%;
+    background-color: rgba(28, 27, 26, .5);
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-cv-container a{
+    padding: 10px 100px;
+    border-radius: 15px;
+    color: var(--blanco);
+    font-size: 1.8rem;
+    text-decoration: none;
+    border: 1px solid var(--negro-alto);
+    background-color: var(--negro-bajo);
+}
+main .main-cv-container a:hover{
+    border: 2px solid var(--blanco);
+    background-color: #CACFD2;
+    color: var(--negro-alto);
+}
+main .main-tecno-container{
+    width: 95%;
+    height: 95%;
+    border-radius: 15px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(28, 27, 26, .5);
+}
+main .main-tecno-container h2{
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    color: var(--blanco);
+    margin-top: 20px;
+}
+main .main-tecno-container div .html{
+    padding: 20px;
+    background-image: url("./asset/icons/html.png");
+    background-size: cover;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20px;
+}
+main .main-tecno-container div .html:hover{
+    opacity: .5;
+}
+main .main-tecno-container div .css{
+    padding: 20px;
+    background-image: url("./asset/icons/css.png");
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main .main-tecno-container div .css:hover{
+    opacity: .5;
+}
+main .main-proyects-container{
+    width: 95%;
+    height: 98%;
+    border-radius: 15px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(28, 27, 26, .5);
+}
+main .main-proyects-container h2{
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    color: var(--blanco);
+    margin-top: 20px;
+}
+main .main-proyects-container div .proyect1{
+    padding: 100px 80px;
+    border-radius: 15px;
+    background-image: url("asset/img/proyecto1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main .main-proyects-container div a:hover{
+    opacity: .5;
+ }
+footer{
+    width: 100%;
+    min-width: 320px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./asset/img/header.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top: 1px solid var(--blanco);
+}
+footer p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    text-align: center;
+    color: var(--blanco);
+}
+
+
+@media(min-width:650px){
+    header{
+        height: 300px;    
+        grid-template-rows: none;
+        display: grid;
+        grid-template-columns: 20% 65% 15%;
+        }
+        header img{
+            width: 90px;
+            height: 90px;
+        }
+        header nav{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+        }
+        header nav .linkedin{
+            padding: 30px;
+            margin-top: 20px;
+        }
+        header nav .email{
+            padding: 30px;
+        }
+        header nav .instagram{
+            padding: 30px;
+            margin-top: 20px;
+        }
+        main .main-tecno-container div .html{
+            padding: 25px;
+        }
+        main .main-tecno-container div .css{
+            padding: 25px;
+        }
+        main .main-datos-container,main .main-cv-container, main .main-tecno-container, main .main-proyects-container{
+            width: 98%;
+        }
+}
+@media(min-width:1024px){
+    header img{
+        width: 100px;
+        height: 100px;
+    }
+    main .main-datos-container,main .main-cv-container, main .main-tecno-container, main .main-proyects-container{
+        width: 99%;
+    }
+}
